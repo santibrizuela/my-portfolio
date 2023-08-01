@@ -5,32 +5,28 @@ import { BsArrowUpRight } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 // variants
 import {fadeIn} from '../variants'
+import Header from './Header';
 
 // services data
 const services = [
+  
   {
-    name: 'UI/UX Design',
+    name: 'Desarrollo Web',
     description:
      'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
-    link: 'Learn more',
+    link: '/development',
   },
   {
-    name: 'Development',
+    name: 'Marketing Digital',
     description:
      'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
-    link: 'Learn more',
-  },
-  {
-    name: 'Digital Marketing',
-    description:
-     'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
-    link: 'Learn more',
+    link: '/marketing',
   },
   {
     name: 'Product Branding',
     description:
      'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
-    link: 'Learn more',
+    link: '/branding',
   },
 ]
 
@@ -48,12 +44,11 @@ const Services = () => {
           className='flex-1 lg:bg-services lg-bg-bottom bg-no-repeat 
           mix-blend-lighten mb-12 lg:mb-0'
         >
-          <h2 className='h2 text-accent mb-6'>What We Do.</h2>
-          <h3 className='h3 max-w-[455px] mb-16'>I'm a Freelance Front-end Developer
-           with over 5 years of experience.
+          <h2 className='h2 text-accent mb-6'>Qué Hacemos.</h2>
+          <h3 className='h3 max-w-[455px] mb-16'>Nos dedicamos al Desarrollo Web y Marketing Digital para Marcas.
           </h3>
           <a href='/work'>
-            <button className='btn btn-sm'>See my work</button>
+            <button className='btn btn-sm'>Ver Últimos Trabajos</button>
           </a>
           
         </motion.div>
@@ -87,13 +82,13 @@ const Services = () => {
                   </div>
                   <div className='flex flex-col flex-1 items-end'>
                     <a 
-                      href='#' 
+                      href={link} 
                       className='btn w-9 h-9 mb-[42px] flex justify-center items-center'
                     >
                       <BsArrowUpRight />
                     </a>
-                    <a href='#' className='text-gradient text-sm'>
-                      {link}
+                    <a href={link} className='text-gradient text-sm'>
+                      Ver Más
                     </a>
                   </div>
                 </div>

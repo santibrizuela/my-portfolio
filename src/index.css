@@ -68,4 +68,7 @@
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+  .icon-color{
+    @apply text-green-700 hover:text-lime-400;
+  }
 }

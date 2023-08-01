@@ -15,7 +15,9 @@ const Header = () => {
           </div>
           
           {/*Buttonn*/}
-          <button className='btn btn-sm'>Work with us</button>
+          <a href='#contact'>
+            <button className='btn btn-sm'>Contactanos</button>
+          </a>
 
 
         </div>

@@ -24,7 +24,7 @@ const About = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 bg-about bg-contain bg-no-repeat 
-              h-[640px] mix-blend-lighten bg-top'
+              h-[640px] bg-top'
             >
           </motion.div>
           {/* text */}
@@ -36,57 +36,57 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1'
           >
-            <h2 className='h2 text-accent'>About me.</h2>
+            <h2 className='h2 text-accent'>About us.</h2>
             <h3 className='h3 mb-4'>
-              I'm a Freelance Front-end Developer with over 5 years of 
-              experience.
+              Nos dedicamos al Desarrollo Web y Diseño Gráfico para Marcas.
             </h3>
             <p className='mb-6'>
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+              Insertamos, potenciamos y lanzamos marcas en línea.
+              Creamos soluciones impactantes y auténticas que conectan con tu audiencia y generan resultados excepcionales.
             </p>
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : 
+                  {inView ? <CountUp start={0} end={3} duration={3} /> : 
                   null}
+                  +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br />
-                  Experience
+                  Años de <br />
+                  Experiencia
                 </div>
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : 
+                  {inView ? <CountUp start={0} end={20} duration={3} /> : 
                   null}
-                  k+
+                  +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Projects <br />
-                  Completed
+                  Proyectos <br />
+                  Completados
                 </div>
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
-                  {inView ? <CountUp start={0} end={12} duration={3} /> : 
+                  {inView ? <CountUp start={0} end={10} duration={3} /> : 
                   null}
-                  k+
+                  +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Satisfied <br />
-                  Clients
+                  Clientes <br />
+                  Satisfechos
                 </div>
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio
+              <button className='btn btn-lg'>Contactanos</button>
+              <a href='/portfolio' className='text-gradient btn-link'>
+                Ver Portfolio
               </a>
             </div>
           </motion.div>

@@ -1,8 +1,8 @@
 import React from 'react';
 // images
-import Image from '../assets/logo.png';
+import Image from '../assets/headerImg.jpg';
 // icons
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -24,9 +24,9 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='text[55px] font-bold leading-[0.8] lg:text-[110px]'
+            className='text-[40px] font-bold leading-[0.8] md:text-[55px]'
             >
-            BEN <span>AIDEN</span>
+            BRIZUELA<br/> <span>SIDERAVICIUS</span>
           </motion.h1>
           <motion.div 
              variants={fadeIn('up', 0.4)} 
@@ -35,13 +35,15 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
           >
-            <span className='text-white mr-4'> I am a</span>
+            <span className='text-white mr-4'></span>
             <TypeAnimation sequence={[
-              'Technique',
+              'Diseño',
               2000,
-              'Designer',
+              'Desarrollo',
+              2000,              
+              'Marketing',
               2000,
-              'Developer',
+              'Soporte',
               2000
             ]} 
             speed={50}
@@ -57,7 +59,7 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-8 max-w-lg mx-auto lg:mx-0'
           >
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+            Digitalizamos tu marca. Te potenciamos en el mundo digital utilizando Diseño Gráfico, Desarrollo Web y Marketing Digital.
           </motion.p>
           <motion.div 
              variants={fadeIn('up', 0.6)} 
@@ -68,12 +70,12 @@ const Banner = () => {
           >
             <a href='#contact'>
               <button className='btn btn-lg'>
-                Contact us
+                Contactanos
               </button>
             </a>
             
-            <a href='#' className='text-gradient btn-link'>
-              My Portfolio
+            <a href='/portfolio' className='text-gradient btn-link'>
+              Ver Portfolio
             </a>
           </motion.div>
           {/* socials */}
@@ -84,14 +86,17 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
           >
-            <a href='#'>
-              <FaYoutube />
+            <a href='https://www.instagram.com/digitalizamostumarca/' target='_blank' rel='noreferrer'>
+              <FaInstagram className='icon-color'/>
             </a>
-            <a href='#'>
-              <FaGithub />
+            <a href='https://github.com/santibrizuela' target='_blank' rel='noreferrer'>
+              <FaGithub className='icon-color'/>
             </a>
-            <a href='#'>
-              <FaDribbble />
+            <a href='#' target='_blank' rel='noreferrer'>
+              <FaLinkedin className='icon-color'/>
+            </a>
+            <a href='https://walink.co/9f8a4e' target='_blank' rel='noreferrer'>
+              <FaWhatsapp className='icon-color'/>
             </a>
           </motion.div>
         </div>
@@ -102,7 +107,7 @@ const Banner = () => {
            whileInView={'show'} 
            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'
         >
-          <img src={Image} alt='Banner' />
+          <img src={Image} alt='Banner' className='rounded-xl'/>
         </motion.div>
       </div>
     </div>
