@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 // img
-import Img1 from '../assets/portfolio-img1.png';
-import Img2 from '../assets/portfolio-img2.png';
-import Img3 from '../assets/portfolio-img3.png';
+import portfolioDivano2 from '../assets/portfolioDivano2.png';
+import portfolioZetaGroup from '../assets/portfolioZetaGroup.png';
+import portfolioResisten from '../assets/portfolioResisten.png';
 
 const Work = () => {
   return (
@@ -22,12 +22,12 @@ const Work = () => {
           {/* text */}
           <div>
             <h2 className='h2 leading-tight text-accent'>
-              My Latest <br />
-              Work.
+              Servicios <br />
+              Recientes.
             </h2>
             <p className='max-w-sm mb-16'>
-              Lorem Ipsum es simplemente de las imprentas y archivos de texto.
-              Lorem Ipsum es el texto de relleno de las imprentas y archivos de texto.
+              Si necesitás Diseño Gráfico (logo, marca, colores) elegí el servicio de Desarrollo de Marca.
+              Si querés un sitio en internet podemos desarrollar tu Web.
             </p>
             <a href='/portfolio'>
               <button className='btn btn-sm'>View all projects</button>
@@ -43,18 +43,25 @@ const Work = () => {
             {/* img */}
             <img 
               className='group-hover:scale-125 transition-all duration-500' 
-              src={Img1} 
+              src={portfolioZetaGroup} 
               alt='img' 
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design</span>             
+              <span className='text-gradient'>UI/UX Design - Next.js</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>ZETA GROUP</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-50'>
+                <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
             </div>
           </div>
         </motion.div>
@@ -73,18 +80,25 @@ const Work = () => {
             {/* img */}
             <img 
               className='group-hover:scale-125 transition-all duration-500' 
-              src={Img2} 
+              src={portfolioDivano2} 
               alt='img' 
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design</span>             
+              <span className='text-gradient'>Desarrollo de Marca - Desarrollo Web - Marketing Digital</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>DIVANO 2.0</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-50'>
+                <a href='https://divano-nextjs.vercel.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
             </div>
           </div>
           {/* image */}
@@ -96,18 +110,25 @@ const Work = () => {
             {/* img */}
             <img 
               className='group-hover:scale-125 transition-all duration-500' 
-              src={Img3} 
+              src={portfolioResisten} 
               alt='img' 
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design</span>             
+              <span className='text-gradient'>Desarrollo Web - ReactApp</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project Title</span>
+              <span className='text-3xl text-white'>RE-SIS-TEN.COM</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-50'>
+                <a href='https://resisten.com.ar/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
             </div>
           </div>
         </motion.div>

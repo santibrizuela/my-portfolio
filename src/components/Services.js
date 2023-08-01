@@ -11,21 +11,21 @@ import Header from './Header';
 const services = [
   
   {
-    name: 'Desarrollo Web',
-    description:
-     'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
-    link: '/development',
-  },
-  {
     name: 'Marketing Digital',
     description:
-     'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
+     'Social Media, Campaña de Seguidores, Plantillas (Feed-Historias), Link/QR. Creamos/Desarrollamos perfiles en redes sociales en las que la Marca tenga un potencial impacto.',
     link: '/marketing',
   },
   {
-    name: 'Product Branding',
+    name: 'Desarrollo Web',
     description:
-     'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto',
+     'Diseño Web, UX/UI, Dominios, Correo Empresarial. Te diseñamos un sitio web con información de tu marca (Contacto, Locales, Horarios) y lo ponemos en línea con Vercel o con DNS.',
+    link: '/development',
+  },
+  {
+    name: 'Desarrollo de Marca',
+    description:
+     'Diseño Gráfico, Paleta de Colores, Logotipo, Imagotipo. Diseñamos el logo y la estética de tu marca desde cero. Es el punto de partida para digitalizar una marca.',
     link: '/branding',
   },
 ]
