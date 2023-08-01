@@ -29,7 +29,10 @@ const Work = () => {
               Lorem Ipsum es simplemente de las imprentas y archivos de texto.
               Lorem Ipsum es el texto de relleno de las imprentas y archivos de texto.
             </p>
-            <button className='btn btn-sm'>View all projects</button>
+            <a href='/portfolio'>
+              <button className='btn btn-sm'>View all projects</button>
+            </a>
+            
           </div>
           {/* image */}
           <div className='group relative overflow-hidden border-2 
