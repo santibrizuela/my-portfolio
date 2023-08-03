@@ -10,6 +10,8 @@ import { Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Design from './pages/Design';
+import Marketing from './pages/Marketing';
+import Webdevelopment from './pages/Webdevelopment';
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
         <Route path='/work' element={<Work/>} />
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/design' element={<Design/>} />
+        <Route path='/marketing' element={<Marketing/>} />
+        <Route path='/webdevelopment' element={<Webdevelopment/>} />
       </Routes>
       <Contact />
     </div>

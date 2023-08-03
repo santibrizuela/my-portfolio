@@ -10,24 +10,26 @@ import Header from './Header';
 // services data
 const services = [
   
-  {
-    name: 'Marketing Digital',
-    description:
-     'Social Media, Campaña de Seguidores, Plantillas (Feed-Historias), Link/QR. Creamos/Desarrollamos perfiles en redes sociales en las que la Marca tenga un potencial impacto.',
-    link: '/marketing',
-  },
-  {
-    name: 'Desarrollo Web',
-    description:
-     'Diseño Web, UX/UI, Dominios, Correo Empresarial. Te diseñamos un sitio web con información de tu marca (Contacto, Locales, Horarios) y lo ponemos en línea con Vercel o con DNS.',
-    link: '/development',
-  },
+  
   {
     name: 'Desarrollo de Marca',
     description:
      'Diseño Gráfico, Paleta de Colores, Logotipo, Imagotipo. Diseñamos el logo y la estética de tu marca desde cero. Es el punto de partida para digitalizar una marca.',
     link: '/branding',
   },
+  {
+    name: 'Desarrollo Web',
+    description:
+     'Diseño Web, UX/UI, Dominios, Correo Empresarial. Te diseñamos un sitio web con información de tu marca (Contacto, Locales, Horarios) y lo ponemos en línea con Vercel o DNS.',
+    link: '/webdevelopment',
+  },
+  {
+    name: 'Marketing Digital',
+    description:
+     'Social Media, Campaña de Seguidores, Plantillas (Feed-Historias), Link/QR. Creamos/Desarrollamos perfiles en redes sociales en las que la Marca tenga un potencial impacto.',
+    link: '/marketing',
+  }
+  
 ]
 
 const Services = () => {
@@ -44,8 +46,8 @@ const Services = () => {
           className='flex-1 lg:bg-services lg-bg-bottom bg-no-repeat 
           mix-blend-lighten mb-12 lg:mb-0'
         >
-          <h2 className='h2 text-accent mb-6'>Qué Hacemos.</h2>
-          <h3 className='h3 max-w-[455px] mb-16'>Nos dedicamos al Desarrollo Web y Marketing Digital para Marcas.
+          <h2 className='h2 font-bold text-lime-200 my-4'>¿Cómo <br/>Digitalizamos <br/>tu Marca?</h2>
+          <h3 className='h3 max-w-[455px] mb-16'>Desarrollamos un logo acorde a tu marca, Diseñamos el sitio web y aplicamos estrategias de Marketing.
           </h3>
           <a href='/work'>
             <button className='btn btn-sm'>Ver Últimos Trabajos</button>
@@ -73,7 +75,7 @@ const Services = () => {
                 >
                   <div className='max-w-[476px]'>
                     <h4 className='text-[20px] tracking-wider font-primary 
-                    font-semibold mb-6'>
+                    font-bold mb-6'>
                       {name}
                     </h4>
                     <p className='font-secondary leading-tight'>
