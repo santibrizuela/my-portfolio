@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1'
           >
-            <h2 className='h2 text-accent'>About us.</h2>
+            <h2 className='h2 text-lime-100'>About us.</h2>
             <h3 className='h3 mb-4'>
               Nos dedicamos al Desarrollo Web y Diseño Gráfico para Marcas.
             </h3>
@@ -85,7 +85,7 @@ const About = () => {
             </div>
             <div className='flex gap-x-8 items-center'>
               <button className='btn btn-lg'>Contactanos</button>
-              <a href='/portfolio' className='text-gradient btn-link'>
+              <a href='/portfolio' className='text-lime-200 font-bold btn-link'>
                 Ver Portfolio
               </a>
             </div>

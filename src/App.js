@@ -1,6 +1,5 @@
 import React from 'react';
 // components
-import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Services from './components/Services';
@@ -12,6 +11,7 @@ import Portfolio from './pages/Portfolio';
 import Design from './pages/Design';
 import Marketing from './pages/Marketing';
 import Webdevelopment from './pages/Webdevelopment';
+import Branding from './pages/Branding';
 
 const App = () => {
   return (
@@ -27,6 +27,7 @@ const App = () => {
         <Route path='/design' element={<Design/>} />
         <Route path='/marketing' element={<Marketing/>} />
         <Route path='/webdevelopment' element={<Webdevelopment/>} />
+        <Route path='/branding' element={<Branding/>} />
       </Routes>
       <Contact />
     </div>

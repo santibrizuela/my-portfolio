@@ -24,9 +24,9 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='text-[40px] font-bold leading-[0.8] md:text-[55px]'
+            className='text-[40px] font-bold text-lime-200 leading-[0.8] md:text-[55px]'
             >
-            BRIZUELA<br/> <span>SIDERAVICIUS</span>
+            <a href='/' className='font-bold'>BRIZUELA<br/> <span>SIDERAVICIUS</span></a>
           </motion.h1>
           <motion.div 
              variants={fadeIn('up', 0.4)} 
@@ -35,22 +35,23 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
           >
-            <span className='text-white mr-4'></span>
-            <TypeAnimation sequence={[
-              'Diseño',
-              2000,
-              'Desarrollo',
-              2000,              
-              'Marketing',
-              2000,
-              'Soporte',
-              2000
-            ]} 
-            speed={50}
-            className='text-accent'
-            wrapper='span'
-            repeat={Infinity}
-            />            
+            <span className='text-gradient mr-4'>
+              <TypeAnimation sequence={[
+                'Diseño',
+                2000,
+                'Desarrollo',
+                2000,              
+                'Marketing',
+                2000,
+                'Soporte',
+                2000
+              ]} 
+              speed={50}
+              wrapper='span'
+              repeat={Infinity}
+              />          
+            </span>
+              
           </motion.div>
           <motion.p
              variants={fadeIn('up', 0.5)} 
@@ -59,7 +60,8 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-8 max-w-lg mx-auto lg:mx-0'
           >
-            Digitalizamos tu marca. Te potenciamos en el mundo digital utilizando Diseño Gráfico, Desarrollo Web y Marketing Digital.
+            Digitalizamos tu marca. Te potenciamos en el mundo digital 
+            utilizando <a href='/branding' className='font-bold text-lime-200'>Diseño Gráfico</a>, <a href='/webdevelopment' className='font-bold text-lime-200'>Desarrollo Web</a> y <a href='/marketing' className='font-bold text-lime-200'>Marketing Digital</a>.
           </motion.p>
           <motion.div 
              variants={fadeIn('up', 0.6)} 
@@ -74,7 +76,7 @@ const Banner = () => {
               </button>
             </a>
             
-            <a href='/portfolio' className='text-gradient btn-link'>
+            <a href='/portfolio' className='text-gradient text-lime-200 btn-link'>
               Ver Portfolio
             </a>
           </motion.div>

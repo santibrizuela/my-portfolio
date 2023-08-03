@@ -70,7 +70,7 @@ const ProjectsFull = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>EN MANTENIMIENTO</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 

@@ -6,7 +6,7 @@ import { fadeIn } from '../variants';
 // img
 import portfolioDivano2 from '../assets/portfolioDivano2.png';
 import portfolioZetaGroup from '../assets/portfolioZetaGroup.png';
-import portfolioResisten from '../assets/portfolioResisten.png';
+import portfolioCe from '../assets/portfolioCePasteleria.png';
 
 const Work = () => {
   return (
@@ -21,16 +21,16 @@ const Work = () => {
           className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/* text */}
           <div>
-            <h2 className='h2 leading-tight text-accent'>
+            <h2 className='h2 leading-tight font-bold text-accent'>
               Servicios <br />
-              Recientes.
+              Digitales.
             </h2>
             <p className='max-w-sm mb-16'>
-              Si necesitás Diseño Gráfico (logo, marca, colores) elegí el servicio de Desarrollo de Marca.
-              Si querés un sitio en internet podemos desarrollar tu Web.
+              Diseñamos y creamos el Logo de tu marca. Desarrollamos su Sitio Web, 
+              perfiles en Redes Sociales y estrategias de Marketing Digital.
             </p>
             <a href='/portfolio'>
-              <button className='btn btn-sm'>View all projects</button>
+              <button className='btn btn-sm'>Ver Proyectos</button>
             </a>
             
           </div>
@@ -49,7 +49,7 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>UI/UX Design - Next.js</span>             
+              <span className='text-gradient'>Diseño UX/UI</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -86,7 +86,7 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Desarrollo de Marca - Desarrollo Web - Marketing Digital</span>             
+              <span className='text-gradient'>Desarrollos de Marca-Web y Marketing Digital</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -110,23 +110,23 @@ const Work = () => {
             {/* img */}
             <img 
               className='group-hover:scale-125 transition-all duration-500' 
-              src={portfolioResisten} 
+              src={portfolioCe} 
               alt='img' 
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Desarrollo Web - ReactApp</span>             
+              <span className='text-gradient'>Diseño Gráfico</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>RE-SIS-TEN.COM</span>
+              <span className='text-3xl text-white'>Ce Pastelería</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-50'>
-                <a href='https://resisten.com.ar/' target='_blank' rel="noreferrer">
+                <a href='https://www.instagram.com/ce_pasteleriaa/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>

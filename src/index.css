@@ -71,4 +71,7 @@
   .icon-color{
     @apply text-green-700 hover:text-lime-400;
   }
+  .text-lime-200{
+    @apply hover:text-gradient
+  }
 }
