@@ -23,7 +23,7 @@ const Work = () => {
           <div>
             
             <h2 className='h2 leading-tight font-bold text-lime-200 mx-auto'>
-              <a href='/branding' className='text-gradient text-lime-200 w-min'>
+              <a href='/skills' className='text-gradient text-lime-200 w-min'>
                   Servicios <br />
                   Digitales.
               </a>

@@ -44,65 +44,73 @@ const Contact = () => {
                 <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>
                   <FaLinkedin className='icon-color'/>
                 </a>
-                <a href='https://walink.co/9f8a4e' target='_blank' rel='noreferrer'>
+                <a href='https://www.wa.link/x0lxo2' target='_blank' rel='noreferrer'>
                   <FaWhatsapp className='icon-color'/>
                 </a>
               </motion.div>
             </div>
           </motion.div>
           {/* form */}
-          <motion.form 
-            action="https://formsubmit.co/brizuelasideravicius@gmail.com" 
-            method="POST"
-            variants={fadeIn('left', 0.3)}
-            initial='hidden'
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 border rounded-2xl flex flex-col gap-y-6 
-            pb-24 p-6 items-start'>
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              name="name" 
-              required
-              placeholder='Nombre Completo'
-            />
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              name="email" 
-              required
-              placeholder='Correo Electrónico'
-            />
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              name="number" 
-              placeholder='Teléfono'
-            />
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              name="subject" 
-              placeholder='Asunto'
-            />
-            <textarea 
-              className='bg-transparent border-b py-4 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all 
-              resize-none mb-10'
-              name="message" 
-              required
-              placeholder='Escribir mensaje...'
-            ></textarea>
-            <button 
-              className='btn btn-lg'
-              type='submit'
-              >Enviar</button>
-          </motion.form>
+          <div className='lg:w-[60%] scale-90 hover:scale-100 ease-in duration-300'>
+          
+            <motion.form 
+              action="https://formsubmit.co/brizuelasideravicius@gmail.com" 
+              method="POST"
+              variants={fadeIn('left', 0.3)}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.3 }}
+              className='flex-1 border rounded-2xl flex flex-col gap-y-6 
+              pb-24 p-6 items-start'
+            >
+              
+              <input
+                className='bg-transparent border-b py-3 outline-none w-full 
+                placeholder:text-white focus:border-accent transition-all'
+                type='text'
+                name="name" 
+                required
+                placeholder='Nombre Completo'
+              />
+              <input
+                className='bg-transparent border-b py-3 outline-none w-full 
+                placeholder:text-white focus:border-accent transition-all'
+                type='text'
+                name="email" 
+                required
+                placeholder='Correo Electrónico'
+              />
+              <input
+                className='bg-transparent border-b py-3 outline-none w-full 
+                placeholder:text-white focus:border-accent transition-all'
+                type='text'
+                name="number" 
+                placeholder='Teléfono'
+              />
+              <input
+                className='bg-transparent border-b py-3 outline-none w-full 
+                placeholder:text-white focus:border-accent transition-all'
+                type='text'
+                name="subject" 
+                required
+                placeholder='Asunto'
+              />
+              <textarea 
+                className='bg-transparent border-b py-4 outline-none w-full 
+                placeholder:text-white focus:border-accent transition-all 
+                resize-none mb-10'
+                name="message" 
+                required
+                placeholder='Escribir mensaje...'
+              ></textarea>
+              <button 
+                className='btn btn-lg'
+                type='submit'
+                >Enviar</button>
+            </motion.form>
+
+          </div>
+          
         </div>
       </div>
     </section>

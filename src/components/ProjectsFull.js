@@ -37,10 +37,15 @@ const ProjectsFull = () => {
             src={Img1} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Proyecto Entregado
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>UI/UX Design NextJS</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -67,10 +72,15 @@ const ProjectsFull = () => {
             src={Img4} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                EN MANTENIMIENTO
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>EN MANTENIMIENTO</span>             
+            <span className='text-gradient'>ReactApp Auth Firebase</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -97,10 +107,15 @@ const ProjectsFull = () => {
             src={Img7} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Plantilla Online
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>NextJS y Alojamiento</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -134,10 +149,15 @@ const ProjectsFull = () => {
             src={Img2} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Proyecto en Desarrollo
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>Desarrollo de Marca y Web</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -164,10 +184,15 @@ const ProjectsFull = () => {
             src={Img5} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Proyecto Online
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>Desarrollo de Marca y Landingpage</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -194,10 +219,15 @@ const ProjectsFull = () => {
             src={Img8} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Plantilla Online
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>UI/UX Design ReactApp</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -231,10 +261,15 @@ const ProjectsFull = () => {
             src={Img3} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Proyecto Online
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>ReactApp, DNS y Alojamiento</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -261,10 +296,15 @@ const ProjectsFull = () => {
             src={Img6} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Proyecto Online
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>Desarrollo de Marketing y Web</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -291,10 +331,15 @@ const ProjectsFull = () => {
             src={Img9} 
             alt='img' 
             />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-50'>
+                Proyecto Online
+            </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-            <span className='text-gradient'>UI/UX Design</span>             
+            <span className='text-gradient'>ReactApp, DNS y Alojamiento</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 

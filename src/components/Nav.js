@@ -31,7 +31,7 @@ const Nav = () => {
           <BiUser className='icon-color'/>
         </a>
         <a 
-          href='/skills'
+          href='/services'
           activeClass='active'
           smooth={true}
           spy={true}
