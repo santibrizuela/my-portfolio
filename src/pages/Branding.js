@@ -48,8 +48,8 @@ const Branding = () => {
 
                     <br/>
                     Luego de ocuparnos de éste primer paso podemos seguir con el crecimiento de tu marca poníendola en lína, estando 
-                    24hs expuesta ya sea desde una <a href='/webdevelopment' className='font-bold text-gradient'>Web Personalizada</a> o 
-                    los perfiles de las <a href='/marketing' className='font-bold text-gradient'>Redes Sociales</a>.
+                    24hs expuesta ya sea desde una <a href='/webdevelopment' className='font-bold text-lime-200'>Web Personalizada</a> o 
+                    los perfiles de las <a href='/marketing' className='font-bold text-lime-200'>Redes Sociales</a>.
 
 
                     </p>

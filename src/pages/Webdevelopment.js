@@ -50,7 +50,7 @@ const Webdevelopment = () => {
                     <br/>
                     El último paso sería crear un <span className='font-bold'>correo empresarial</span> (ventas@tu-marca.com), vincularlo
                     con el sitio web para informar a tus suscriptores sobre novedades o 
-                    hacer <a href='/marketing' className='font-bold text-gradient'>Email Marketing</a> con promociones sobre tu marca.
+                    hacer <a href='/marketing' className='font-bold text-lime-200'>Email Marketing</a> con promociones sobre tu marca.
 
 
                     </p>

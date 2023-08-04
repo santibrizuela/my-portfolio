@@ -1,6 +1,7 @@
 import React from 'react';
 // components
 import Nav from './components/Nav';
+import WhatsappScroll from './components/WhatsappScroll';
 import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
@@ -18,6 +19,7 @@ const App = () => {
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       
       <Nav />
+      <WhatsappScroll />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />

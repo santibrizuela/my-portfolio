@@ -94,7 +94,7 @@ const Banner = () => {
             <a href='https://github.com/santibrizuela' target='_blank' rel='noreferrer'>
               <FaGithub className='icon-color'/>
             </a>
-            <a href='#' target='_blank' rel='noreferrer'>
+            <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>
               <FaLinkedin className='icon-color'/>
             </a>
             <a href='https://walink.co/9f8a4e' target='_blank' rel='noreferrer'>
