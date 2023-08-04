@@ -76,20 +76,7 @@ const Contact = () => {
               required
               placeholder='Correo Electrónico'
             />
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              name="number" 
-              placeholder='Teléfono'
-            />
-            <input
-              className='bg-transparent border-b py-3 outline-none w-full 
-              placeholder:text-white focus:border-accent transition-all'
-              type='text'
-              name="subject" 
-              placeholder='Asunto'
-            />
+            
             <textarea 
               className='bg-transparent border-b py-4 outline-none w-full 
               placeholder:text-white focus:border-accent transition-all 
