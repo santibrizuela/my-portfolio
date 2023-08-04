@@ -16,7 +16,7 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex justify-start items-center'
+            className='flex-1 flex items-center mx-auto text-center lg:text-start'
           >
             <div>
               <h4 className='text-xl uppercase text-accent 
@@ -33,7 +33,7 @@ const Contact = () => {
                 initial="hidden" 
                 whileInView={'show'} 
                 viewport={{once: false, amount: 0.7}}
-                className='flex-1 flex text-[20px] gap-x-6 my-6 max-w-max'
+                className='flex-1 flex text-[20px] gap-x-6 my-6 max-w-max mx-auto lg:mx-2'
               >
                 <a href='https://www.instagram.com/digitalizamostumarca/' target='_blank' rel='noreferrer'>
                   <FaInstagram className='icon-color'/>

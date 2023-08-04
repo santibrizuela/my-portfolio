@@ -18,14 +18,14 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+          className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 text-center mx-auto lg:text-start'>
           {/* text */}
           <div>
             <h2 className='h2 leading-tight font-bold text-accent'>
               Servicios <br />
               Digitales.
             </h2>
-            <p className='max-w-sm mb-16'>
+            <p className='max-w-sm mb-16 mx-auto lg:mx-0'>
               Diseñamos y creamos el Logo de tu marca. Desarrollamos su Sitio Web, 
               perfiles en Redes Sociales y estrategias de Marketing Digital.
             </p>

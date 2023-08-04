@@ -43,10 +43,11 @@ const Services = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
           className='flex-1 lg:bg-services lg-bg-bottom bg-no-repeat 
-          mix-blend-lighten mb-12 lg:mb-0'
+          mix-blend-lighten mb-12 lg:mb-0  text-center lg:text-start'
         >
           <h2 className='h2 font-bold text-lime-100 my-4'>¿Cómo <br/>Digitalizamos <br/>tu Marca?</h2>
-          <h3 className='h3 max-w-[455px] mb-16'>Desarrollamos un logo acorde a tu marca, Diseñamos el sitio web y aplicamos estrategias de Marketing.
+          <h3 className='h3 lg:max-w-[455px] mb-16'>
+            Desarrollamos un logo acorde a tu marca, Diseñamos el sitio web y aplicamos estrategias de Marketing.
           </h3>
           <a href='/work'>
             <button className='btn btn-sm'>Ver Últimos Trabajos</button>
