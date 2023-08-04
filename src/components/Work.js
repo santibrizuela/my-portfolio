@@ -18,16 +18,22 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 text-center mx-auto lg:text-start'>
+          className='flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0 text-center mx-auto lg:text-start'>
           {/* text */}
           <div>
-            <h2 className='h2 leading-tight font-bold text-accent'>
-              Servicios <br />
-              Digitales.
+            
+            <h2 className='h2 leading-tight font-bold text-lime-200 mx-auto'>
+              <a href='/branding' className='text-gradient text-lime-200 w-min'>
+                  Servicios <br />
+                  Digitales.
+              </a>
             </h2>
-            <p className='max-w-sm mb-16 mx-auto lg:mx-0'>
-              Diseñamos y creamos el Logo de tu marca. Desarrollamos su Sitio Web, 
-              perfiles en Redes Sociales y estrategias de Marketing Digital.
+            
+            <p className='max-w-sm text-[1.5rem] font-bold mb-16 mx-auto lg:mx-0'>
+              Diseñamos y creamos el <a href='/branding' className='text-gradient text-lime-200'>Logo</a> de 
+              tu marca. Desarrollamos su <a href='/webdevelopment' className='text-gradient text-lime-200'>Sitio Web</a>, 
+              perfiles en <a href='/marketing' className='text-gradient text-lime-200'>Redes Sociales</a> y 
+              estrategias de <a href='/marketing' className='text-gradient text-lime-200'>Marketing</a>.
             </p>
             <a href='/portfolio'>
               <button className='btn btn-sm'>Ver Proyectos</button>
@@ -70,7 +76,7 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 flex flex-col gap-y-10'>
+          className='flex-1 flex flex-col gap-y-16'>
           {/* image */}
           <div className='group relative overflow-hidden border-2 
           border-white/50 rounded-xl'>

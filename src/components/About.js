@@ -36,9 +36,11 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 text-center lg:text-start'
           >
-            <h2 className='h2 text-lime-100'>About us.</h2>
+            <h2 className='h2 text-lime-200 w-max'>About us.</h2>
             <h3 className='h3 mb-4'>
-              Nos dedicamos al Desarrollo Web y Diseño Gráfico para Marcas.
+              Nos dedicamos al <a href='/branding' className='text-gradient text-lime-200'>Diseño Gráfico</a>,
+              <a href='/webdevelopment' className='text-gradient text-lime-200'> Desarrollo Web</a> y 
+              <a href='/marketing' className='text-gradient text-lime-200'> Marketing</a> de Marcas.
             </h3>
             <p className='mb-6'>
               Insertamos, potenciamos y lanzamos marcas en línea.

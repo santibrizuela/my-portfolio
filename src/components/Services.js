@@ -46,8 +46,10 @@ const Services = () => {
           mix-blend-lighten mb-12 lg:mb-0  text-center lg:text-start'
         >
           <h2 className='h2 font-bold text-lime-100 my-4'>¿Cómo <br/>Digitalizamos <br/>tu Marca?</h2>
-          <h3 className='h3 lg:max-w-[455px] mb-16'>
-            Desarrollamos un logo acorde a tu marca, Diseñamos el sitio web y aplicamos estrategias de Marketing.
+          <h3 className='h3 lg:max-w-[455px] lg:mb-48'>
+            Diseñamos un <a href='/branding' className='text-gradient text-lime-200'>Logo</a> acorde 
+            a tu marca, creamos una <a href='/webdevelopment' className='text-gradient text-lime-200'>Web</a> y 
+            aplicamos estrategias de <a href='/marketing' className='text-gradient text-lime-200'>Marketing</a> en las redes.
           </h3>
           <a href='/work'>
             <button className='btn btn-sm'>Ver Últimos Trabajos</button>

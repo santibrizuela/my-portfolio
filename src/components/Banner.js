@@ -24,7 +24,7 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='text-[40px] font-bold text-lime-200 leading-[0.8] md:text-[55px]'
+            className='text-[40px] font-bold text-lime-200 leading-[0.8] md:text-[55px] w-min'
             >
             <a href='/' className='font-bold'>BRIZUELA<br/> <span>SIDERAVICIUS</span></a>
           </motion.h1>
@@ -91,7 +91,7 @@ const Banner = () => {
             <a href='https://www.instagram.com/digitalizamostumarca/' target='_blank' rel='noreferrer'>
               <FaInstagram className='icon-color'/>
             </a>
-            <a href='https://github.com/santibrizuela' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/santibrizuela/my-portfolio' target='_blank' rel='noreferrer'>
               <FaGithub className='icon-color'/>
             </a>
             <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>

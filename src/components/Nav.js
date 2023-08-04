@@ -4,10 +4,13 @@ import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboard, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
 
 const Nav = () => {
-  return <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
-    <div className='container mx-auto'>
+  return <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-40'>
+    <div className='container mx-auto w-min'>
       {/*nav inner */}
-      <div className='w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto flex justify-center items-center text-2xl text-white/50'>
+      <div className='w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full 
+      max-w-[460px] mx-auto flex justify-center items-center text-2xl text-white/50 
+      px-6'
+      >
         <a 
           href='/'
           activeClass='active'

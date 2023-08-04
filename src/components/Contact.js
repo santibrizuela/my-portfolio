@@ -38,7 +38,7 @@ const Contact = () => {
                 <a href='https://www.instagram.com/digitalizamostumarca/' target='_blank' rel='noreferrer'>
                   <FaInstagram className='icon-color'/>
                 </a>
-                <a href='https://github.com/santibrizuela' target='_blank' rel='noreferrer'>
+                <a href='https://github.com/santibrizuela/my-portfolio' target='_blank' rel='noreferrer'>
                   <FaGithub className='icon-color'/>
                 </a>
                 <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>
@@ -52,7 +52,7 @@ const Contact = () => {
           </motion.div>
           {/* form */}
           <motion.form 
-            action="https://formsubmit.co/brizuelasideravicius@gmail.com.com" 
+            action="https://formsubmit.co/brizuelasideravicius@gmail.com" 
             method="POST"
             variants={fadeIn('left', 0.3)}
             initial='hidden'
