@@ -97,7 +97,7 @@ const Banner = () => {
             <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>
               <FaLinkedin className='icon-color'/>
             </a>
-            <a href='https://www.wa.link/x0lxo2' target='_blank' rel='noreferrer'>
+            <a href='wa.link/xtdsov' target='_blank' rel='noreferrer'>
               <FaWhatsapp className='icon-color'/>
             </a>
           </motion.div>
